@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Atul Kumar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px 10%;
+            line-height: 1.6;
+        }
+    h1 {
+        color: #333;
+    }
+    h2 {
+        color: #000;
+        text-decoration: underline; /* Underline only h2 */
+    }
+    h3 {
+        color: #555;
+    }
+        .section {
+            margin-bottom: 30px;
+        }
+        ul, ol {
+            margin: 10px 0 10px 20px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-info, .photo {
+            margin-bottom: 20px;
+        }
+        .photo img {
+            float: right;
+            margin: 10px;
+            width: 200px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        td {
+            padding: 10px;
+            vertical-align: top;
+        }
+        th {
+            text-align: left;
+            padding: 10px;
+            background: #f5f5f5;
+        }
+        .indent {
+            margin-left: 20px;
+        }
+.inline-flex {
+    display: inline-flex;
+    align-items: flex-end; /* Align text like a subscript */
+}
+.credentials {
+    font-size: 0.5em;
+    margin-left: 5px; /* Optional: add spacing from the main text */
+    color: #555;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Curriculum Vitae</h1>
+        <h2>Atul Kumar     <span class="inline-flex">
+        <span class="credentials">MBBS, MMST, DRE</span>
+    </span></h2>
+                <div class="photo">
+            <img src="{{ url_for('static', filename='images/passportsizephotoathome.png') }}" alt="Profile Picture" width="200">
+        </div>
+    </header>
+
+    <section class="contact-info">
+        <h2>Contact</h2>
+        <p><strong>Phone:</strong> +1 314 745 3028</p>
+        <p><strong>Email:</strong> <a href="mailto:atulkumar@wustl.edu">atulkumar@wustl.edu</a>, <a href="mailto:sharmaatul11@gmail.com">sharmaatul11@gmail.com</a></p>
+    </section>
+
+    <section class="section">
+        <h2>Summary of Qualifications</h2>
+        <ul>
+            <li>Multi-disciplinary background in <strong>Medicine</strong> and <strong>Biomedical Engineering</strong>.</li>
+            <li>Experienced in research for <strong>medical image analysis, computer-assisted diagnosis, and computer-assisted surgery</strong>.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Education</h2>
+        <h3>Cleveland State University, Cleveland, OH</h3>
+        <p><strong>Doctor of Engineering, Applied Biomedical Engineering</strong> (2007-2011)</p>
+        <ul>
+            <li>Dissertation: <em>Design of an implant for the first metatarsophalangeal joint hemiarthroplasty</em></li>
+            <li>Advisor: <a href="http://www.orthop.washington.edu/?q=faculty-profiles/peter-r-cavanagh-phd-dsc.html">Peter R. Cavanagh, Ph.D., D.Sc.</a></li>
+        </ul>
+
+        <h3>Indian Institute of Technology, Kharagpur, India</h3>
+        <p><strong>Master of Medical Science and Technology, Biomedical Engineering</strong> (2004-2007)</p>
+        <ul>
+            <li>Thesis: <em>Study of auditory feedback processing in human brain</em></li>
+            <li>Advisor: <a href="https://radiology.ucsf.edu/people/srikantan-nagarajan">Srikantan Nagarajan, Ph.D.</a></li>
+        </ul>
+
+        <h3>Patna Medical College, Patna, India</h3>
+        <p><strong>Bachelor of Medicine and Bachelor of Surgery</strong> (1996-2002)</p>
+    </section>
+
+
+
+<section class="section">
+    <h2>Peer Reviewed Journal Publications</h2>
+    <ol>
+        <li>
+            <strong>Kumar Atul</strong>, Chen Yasheng, Cifarelli Julien, Anand Arjun, Xu Autumn, Gurney Jenny, Marcus Daniel, and Dhar Rajat.
+            <em>A Platform for Automatic Extraction of Imaging Biomarkers in CT Scans from Ischemic and Hemorrhagic Stroke Patients.</em>
+            Journal of Neuroinformatics, <em>(Under review)</em>.
+                <p>
+        Product Link: <a href="https://snipr.wustl.edu/" target="_blank">https://snipr.wustl.edu/</a><br>
+        <em>Note:</em> This platform is deployed as Docker containers available for use through the above link.
+    </p>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/39098362/">
+                Avula Amrit, Bui Quoc, <strong>Kumar Atul</strong>, Chen Yasheng, Hamzehloo Ali, Cifarelli Julien, Heitsch Laura, Slowik Agnieszka, Strbian Daniel, Lee Jin-Moo, and Dhar Rajat.
+                <em>Evaluating the interaction between hemorrhagic transformation and cerebral edema on functional outcome after ischemic stroke.</em>
+                Journal of Stroke and Cerebrovascular Diseases, 2024 Aug 3;33(10):107913.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/38580801/">
+                Dhar Rajat, Braun Porche, <strong>Kumar Atul</strong>, Patel Jayesh, Lee Flavia L, and Arshi Baback.
+                <em>A Recruitment Maneuver After Apnea Testing Improves Oxygenation and Reduces Atelectasis in Organ Donors After Brain Death.</em>
+                Neurocritical Care, 2024 April:e1-e7.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/36323345/">
+                Yuan Jane Y, Chen Yasheng, Keshav Jayaraman, <strong>Kumar Atul</strong>, Zlepper Zach, Allen Michelle L, Athiraman Umeshkumar, Osbun Joshua, Zipfel Gregory, and Dhar Rajat.
+                <em>Automated Quantification of Compartmental Blood Volumes Enables Prediction of Delayed Cerebral Ischemia and Outcomes After Aneurysmal Subarachnoid Hemorrhage.</em>
+                World Neurosurgery, 2023, 170:e214–e222.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/37188885/">
+                Bui Quoc, <strong>Kumar Atul</strong>, Chen Yasheng, Hamzehloo Ali, Heitsch Laura, Slowik Agnieszka, Strbian Daniel, Lee Jin-Moo, and Dhar Rajat.
+                <em>CSF-Based Volumetric Imaging Biomarkers Highlight Incidence and Risk Factors for Cerebral Edema After Ischemic Stroke.</em>
+                Neurocritical Care, 2023, 15:1-1.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/37095592/">
+                Dhar Rajat, <strong>Kumar Atul</strong>, Chen Yasheng, Begunova Yelyzaveta, Olexa Madelynne, Prasad Ayush, Carey Grace, Gonzalez Isabella, Bhatia Kunal, Hamed Mohammad.
+                <em>Imaging biomarkers of cerebral edema automatically extracted from routine CT scans of large vessel occlusion strokes.</em>
+                Journal of Neuroimaging, April 2023.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/35832178/">
+                <strong>Kumar Atul</strong>, Chen Yasheng, Corbin Aaron, Hamzehloo Ali, Abedini Amin, Vardar Zeynep, Carey Grace, Bhatia Kunal, Heitsch Laura, Derakhshan Jamal, Lee Jin-Moo, and Dhar Rajat.
+                <em>Automated Measurement of Net Water Uptake From Baseline and Follow-Up CTs in Patients With Large Vessel Occlusion Stroke.</em>
+                Frontiers in Neurology, 2022;13:898728.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/34417703/">
+                Hossein Mohammadian Foroushani, Ali Hamzehloo, <strong>Kumar Atul</strong>, Yasheng Chen, Laura Heitsch, Agnieszka Slowik, Daniel Strbian, Jin-Moo Lee, Daniel S. Marcus, and Rajat Dhar.
+                <em>Accelerating Prediction of Malignant Cerebral Edema After Ischemic Stroke with Automated Image Analysis and Explainable Neural Networks.</em>
+                Neurocritical Care, 2022, 36(2):471-482.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/32729090/">
+                Hossein Mohammadian Foroushani, Ali Hamzehloo, <strong>Kumar Atul</strong>, Yasheng Chen, Laura Heitsch, Agnieszka Slowik, Daniel Strbian, Jin-Moo Lee, Daniel Marcus, and Rajat Dhar.
+                <em>Quantitative Serial CT Imaging-Derived Features Improve Prediction of Malignant Cerebral Edema After Ischemic Stroke.</em>
+                Neurocritical Care, 2020, 33:785-792.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/31818229/">
+                Rajat Dhar, Yasheng Chen, Ali Hamzehloo, <strong>Kumar Atul</strong>, Laura Heitsch, June He, Ling Chen, Agnieszka Slowik, Daniel Strbian, and Jin-Moo Lee.
+                <em>Reduction in Cerebrospinal Fluid Volume as an Early Quantitative Biomarker of Cerebral Edema After Ischemic Stroke.</em>
+                Stroke, 2020;51:462–467.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/30692030/">
+                Yen-Yu Wang, Han-Pang Liu, Fu-Li Hsiao, and <strong>Kumar Atul</strong>.
+                <em>Augmented Reality for Temporomandibular Joint Arthrocentesis: A Cadaver Study.</em>
+                International Journal of Oral & Maxillofacial Surgery, 2019, 48(8):1084-1087.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/30967697/">
+                Ming-Chou Ku, Wei-RJen Chen, Chien-Sheng Lo, Chang-Han Chuang, Zih-Ping Ho, and <strong>Kumar Atul</strong>.
+                <em>Femoral Component Alignment with a New Extramedullary Femoral Cutting Guide Technique.</em>
+                Indian Journal of Orthopaedics, 2019, 53(2):276–281.
+            </a>
+        </li>
+        <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/30542231/">
+                Ming-Chou Ku, Wei-RJen Chen, Chien-Sheng Lo, Chang-Han Chuang, Zih-Ping Ho, and <strong>Kumar Atul</strong>.
+                <em>Rotational Shortening of Collateral Ligament in TKR with Severe Deformity.</em>
+                Techniques in Orthopaedics, 2018, 33(4):274–278.
+            </a>
+        </li>
+        <li>
+            <a href="https://www.tandfonline.com/doi/abs/10.1080/21681163.2016.1197798">
+                Yen-Yu Wang, <strong>Kumar Atul</strong>, Kai-Che Liu, Shih-Wei Huang, Ching-Chun Huang, Wei-Chia Su, and Wen-Nung Lie.
+                <em>Stereoscopic Augmented Reality for Single Camera Endoscopy: A Virtual Study.</em>
+                Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, 2018, 6(2):182-191.
+            </a>
+        </li>
+        <li>
+            <a href="http://ij3c.ncuteecs.org/volume/paperfile/5-2/IJ3C_5.pdf">
+                Yu-Chieh Lin, Jiunn-Lin Wu, I-Chun Lee, Chi-Hsiang Wu, <strong>Kumar Atul</strong>, Kai-Che Jack Liu, and Yen-Yu Wang.
+                <em>Image Segmentation with Supervised Clustering Using Hierarchical Support Vector Machines.</em>
+                International Journal of Computer, Consumer, and Control (IJ3C), 2016, 5(2):41-49.
+            </a>
+        </li>
+        <li>
+            <a href="https://www.sciencedirect.com/science/article/pii/S0169260713004033">
+                <strong>Kumar Atul</strong>, Yen-Yu Wang, Ching-Jen Wu, Kai-Che Liu, and Hurng-Sheng Wu.
+                <em>Stereoscopic Visualization of Laparoscope Image Using Depth Information from 3D Model.</em>
+                Computer Methods and Programs in Biomedicine, 2014, 113(3):862-868.
+            </a>
+        </li>
+        <li>
+            <a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2013.766723">
+                <strong>Kumar Atul</strong>, Brian Donley, and Peter R. Cavanagh.
+                <em>Design of an Implant for First Metatarsophalangeal Hemi-Arthroplasty.</em>
+                Computer Methods in Biomechanics and Biomedical Engineering, 2014, 17(16):1777-1784.
+            </a>
+        </li>
+        <li>
+            <a href="https://link.springer.com/article/10.1007/s11999-015-4616-z">
+                <strong>Kumar Atul</strong>, Wen-Chen Tsai, Tai-Sheng Tan, Li-Ting Chiu, Pei-Tseng Kung, Ching-Kan Lo, and Ming-Chou Ku.
+                <em>Risk of Post-TKA Acute Myocardial Infarction in Patients with a History of Myocardial Infarction or Coronary Stent.</em>
+                Clinical Orthopaedics and Related Research, 2016, 474(2):479-486.
+            </a>
+        </li>
+        <li>
+            <a href="https://www.ncbi.nlm.nih.gov/pubmed/26318767">
+                <strong>Kumar Atul</strong>, Tai-Sheng Tan, Wen-Chen Tsai, Li-Ting Chiu, Peichen Kung, and Ming-Chou Ku.
+                <em>Temporal Trends in Total Knee and Hip Replacement in Taiwan.</em>
+                Journal of Chinese Medical Association, 2015, 78(9):538-544.
+            </a>
+        </li>
+    </ol>
+</section>
+<section class="section">
+    <h2>Publications in Proceedings</h2>
+    <ol>
+        <li>
+            <a href="https://www.ahajournals.org/doi/10.1161/str.54.suppl_1.12">
+                Begunova Yelyzaveta, Bartolome David, Olexa Madelynne, <strong>Kumar Atul</strong>, Chen Yasheng, Peng Teng J., Ortega-Gutierrez Santiago, Sheth Kevin N, Dhar Rajat, and Petersen Nils H.
+                <em>Higher Blood Pressure Trajectories After Endovascular Thrombectomy Are Associated With Cerebral Edema Development.</em>
+                International Stroke Conference, Feb 2023, Dallas, USA.
+            </a>
+        </li>
+        <li>
+            <a href="https://www.ahajournals.org/doi/10.1161/str.54.suppl_1.9">
+                Petersen Nils H, Begunova Yelyzaveta, Olexa Madelynne, Bartolome David, <strong>Kumar Atul</strong>, Chen Yasheng, Dhar Rajat, Peng Teng, Ortega-Gutierrez Santiago, and Falcone Guido J.
+                <em>Autoregulation-based Blood Pressure Targets After Endovascular Thrombectomy.</em>
+                International Stroke Conference, Feb 2023, Dallas, USA.
+            </a>
+        </li>
+        <li>
+            <a href="https://www.strokegenetics.org/node/305">
+                Jane Yuan, Zach Zlepper, Keshav Jayaraman, <strong>Kumar Atul</strong>, Yasheng Chen, Joshua Osbun, Umeshkumar Athiraman, Gregory Zipfel, and Raj Dhar.
+                <em>Quantitative imaging assessment of cerebral edema facilitates genetic evaluation of early brain injury after aneurysmal subarachnoid hemorrhage.</em>
+                Proceedings of the 26th International Stroke Genetics Consortium Workshop, October 2019, St. Louis, MO.
+            </a>
+        </li>
+        <li>
+            <a href="https://ieeexplore.ieee.org/document/8448932">
+                <strong>Kumar Atul</strong>, Seng-Lieh Yan, Yen-Yu Wang, Kai-Che Liu, Shih-Wei Huang.
+                <em>Anatomical Region Identification in USG Image with Preoperative CT 3D Model Using Optical Tracking System.</em>
+                IEEE International Conference on Consumer Electronics, May 2018, Taipei, Taiwan.
+            </a>
+        </li>
+        <li>
+            <a href="https://ieeexplore.ieee.org/document/7521061/">
+                <strong>Kumar Atul</strong>, Yen-Yu Wang, Kai-Che Liu, Wan-Chi Hung, Shih-Wei Huang, Ching-Chun Huang, Yi-Chun Lee.
+                <em>Laparoscopic Video Augmentation with Infrared Image Information.</em>
+                IEEE International Conference on Consumer Electronics, July 2016, Taipei, Taiwan.
+            </a>
+        </li>
+        <li>
+            <a href="https://ieeexplore.ieee.org/document/6820918/">
+                <strong>Kumar Atul</strong>, Ching-Chun Huang, Nguyen Hung, Yen-Yu Wang, Ching-Jen Wu, Kai-Che Liu, I-Chen Tsai.
+                <em>Distinguishing Normal and Pulmonary Edema Chest X-ray Using Gabor Filter and SVM.</em>
+                IEEE International Symposium on Bioelectronics and Bioinformatics, April 2014, Taipei, Taiwan.
+            </a>
+        </li>
+        <li>
+            <a href="https://ieeexplore.ieee.org/abstract/document/7216967/">
+                <strong>Kumar Atul</strong>, Yen-Yu Wang, Kai-Che Liu, Wan-Chi Hung, Shih-Wei Huang, Wen-Nung Lie, Ching-Chun Huang.
+                <em>Surface Reconstruction from Endoscopic Image Sequence.</em>
+                IEEE International Conference on Consumer Electronics, July 2015, Taipei, Taiwan.
+            </a>
+        </li>
+        <li>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-319-19452-3_11">
+                <strong>Kumar Atul</strong>, Yen-Yu Wang, Kai-Che Liu, Wan-Chi Hung, Shih-Wei Huang, Wen-Nung Lie, Ching-Chun Huang.
+                <em>Three-Dimensional Panorama Visualization for Endoscopic Video: A Shape from Shading Approach.</em>
+                World Congress on Bioengineering, May 2015, Singapore.
+            </a>
+        </li>
+        <li>
+            <a href="https://ieeexplore.ieee.org/abstract/document/7399146/">
+                <strong>Kumar Atul</strong>, Yen-Yu Wang, Kai-Che Liu, Wan-Chi Hung, Shih-Wei Huang, Wen-Nung Lie, Ching-Chun Huang.
+                <em>Stereoscopic Augmented Reality for Single Camera Endoscope Using Optical Tracker: A Study on Phantom.</em>
+                Third International Conference on Robot, Vision, and Signal Processing, September 2015, Kaoshiung, Taiwan.
+            </a>
+        </li>
+        <li>
+            <a href="https://ieeexplore.ieee.org/abstract/document/6820904/">
+                <strong>Kumar Atul</strong>, Ching-Jen Wu, Kai-Che Liu, Yen-Yu Wang, Hurng-Sheng Wu.
+                <em>Stereoscopic Laparoscopy Using Depth Information from 3D Model.</em>
+                IEEE International Symposium on Bioelectronics and Bioinformatics, April 2014, Taipei, Taiwan.
+            </a>
+        </li>
+        <li>
+            <a href="https://ieeexplore.ieee.org/abstract/document/6720526/">
+                Ching-Chun Huang, Nguyen Manh Hung, and <strong>Kumar Atul</strong>.
+                <em>Hybrid Method for 3D Instrument Reconstruction and Tracking in Laparoscopy Surgery.</em>
+                International Conference on Control, Automation, and Information Sciences, November 2013, Ho Chi Minh City, Vietnam.
+            </a>
+        </li>
+    </ol>
+</section>
+<section class="section">
+    <h2>Presentations</h2>
+    <ol>
+        <li>
+            <strong>Kumar Atul</strong>, Chen Yasheng, Cifarelli Julien, Anand Arjun, Xu Autumn, Gurney Jenny, and Dhar Rajat.
+            <em>A Platform for Automatically Extracting Imaging Biomarkers from Ischemic and Hemorrhagic Stroke Patients.</em>
+            Radiological Society of North America, Nov 2023, Chicago, USA.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Seng-Lieh Yan, Yen-Yu Wang, Kai-Che Liu, Shih-Wei Huang.
+            <em>Visualizing CT 3D Model Section with USG Image Plane for Hepatic Applications.</em>
+            Computer Assisted Radiology and Surgery, June 2018, Berlin, Germany.
+        </li>
+        <li>
+            <a href="https://www.sages.org/abstract-reply-form/?id=80da333591b2aedb0a82e107a265da5c">
+                Shih-Wei Huang, <strong>Kumar Atul</strong>, Hon-Phin Wong, Hurng-Sheng Wu, Yen-Yu Wang, Kai-Che Liu, Lih-Shun Chen, Yi-Chun Lee, Wan-Chi Hung.
+                <em>A Method to Combine Fluorescence Image with Endoscopic Image for Under-Surface Vascular Visualization.</em>
+                Society of American Gastrointestinal and Endoscopic Surgeons, March 2018, Boston, USA.
+            </a>
+        </li>
+        <li>
+            <a href="https://www.sages.org/abstract-reply-form/?id=9d059da0216fb94223a99d1a031cacf3">
+                <strong>Kumar Atul</strong>, Kai-Che Liu, Benjamin Niay, Shih-Wei Huang, Yen-Yu Wang, Yi-Chun Lee.
+                <em>Web-Based Visualization of 3D CT Model with Endoscopic Images.</em>
+                Society of American Gastrointestinal and Endoscopic Surgeons, March 2018, Boston, USA.
+            </a>
+        </li>
+        <li>
+            Flavia Lee, Rajat Dhar, <strong>Kumar Atul</strong>, and Abhay Kumar.
+            <em>ICU Outcomes of Mild Spontaneous Intracerebral Hemorrhage.</em>
+            Neurocritical Care Society (NCS) 15th Annual Meeting, October 2017, Hawaii, USA.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Yen-Yu Wang, Ching-Chun Huang, Kai-Che Liu, Shih-Wei Huang.
+            <em>Reconstructing a Real Size 3D Structure of Colon Lesions from Endoscopic Video.</em>
+            Computer Assisted Radiology and Surgery, June 2017, Spain, Barcelona.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Shih-Wei Huang, Yen-Yu Wang, Kai-Che Liu, Wan-Chi Hung, Yi-Chun Lee, Jungle Chi-Hsiang Wu, Jian Hua Lin.
+            <em>Real to Virtual Scene Registration Using Kinect for Endoscopic Augmented Reality System.</em>
+            Society of American Gastrointestinal and Endoscopic Surgeons, March 2017, Boston, USA.
+        </li>
+        <li>
+            Shih-Wei Huang, Yen-Yu Wang, Wan-Chi Hung, <strong>Kumar Atul</strong>, Kai-Che Liu, Jian-Hua Lin, Jing-Jim Ou, and Tt Chung.
+            <em>2D to 3D Conversion of Conventional Endoscopic Video: A Preliminary Result.</em>
+            Society of American Gastrointestinal and Endoscopic Surgeons, March 2017, Boston, USA.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Kai-Che Liu, Ching-Chun Huang, Ming Hsun LeeLihsun, Chen, Yen-Yu Wang, Hurng-Sheng Wu.
+            <em>Hepatocellular Carcinoma Detection in Arterial Phase of CT Using Directional Features and Machine Learning Algorithm.</em>
+            Radiological Society of North America, November 2014, Chicago, USA.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Yen-Yu Wang, Kai-Che Liu, Wan-Chi Hung, Shih-Wei Huang, Ching-Chun Huang, Yi-Chun Lee.
+            <em>Segmented Near Infrared Light Image Superimposition on Visible Light Endoscopic Video for Gall Bladder Surgery.</em>
+            Computer Assisted Radiology and Surgery, June 2016, Heidelberg, Germany.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Shih-Wei Huang, Wang Yen Yu, Liu Kai-Che, Wu, Huang Ching-Chun, Lee Yi-Chun, Ou Jing-Jim, Hung Wan-Chi.
+            <em>3D Structure Reconstruction of Lesions in Colon with Colonoscopic Images.</em>
+            Society of American Gastrointestinal and Endoscopic Surgeons, March 2016, Boston, USA.
+        </li>
+        <li>
+            Wang Yenyu, Yeh Tien-Shou, <strong>Kumar Atul</strong>, Hung Wan Chi, Su Wei-Chia, Liu Kai-Che, Wu, Hurng-Sheng.
+            <em>3D Endoscope System of Monoscopic Endoscope with External Stereo Lens.</em>
+            Society of American Gastrointestinal and Endoscopic Surgeons, March 2016, Boston, USA.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Ching-Jen Wu, Yen-Yu Wang, Kai-Che Liu, and Hurng-Sheng Wu.
+            <em>Dynamic Field View Expansion of the Laparoscope Video Using Robot Arm.</em>
+            Asian Conference on Computer Aided Surgery, September 2013, Tokyo, Japan.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Ching-Jen Wu, Kai-Che Liu, Yen-Yu Wang, Hurng-Sheng Wu.
+            <em>Augmented Reality for Laparoscopy Surgery Using Registration and Image Feature Tracking.</em>
+            Asian Conference on Computer Aided Surgery, September 2013, Tokyo, Japan.
+        </li>
+        <li>
+            Kai-Che Liu, <strong>Kumar Atul</strong>, Leona Chen, Yen-Yu Wang, Hurng-Sheng Wu, Min-Ho Huang.
+            <em>3D Visualization of Laparoscopic Images by Registration to 3D CT/MRI Model.</em>
+            Radiological Society of North America, December 2013, Chicago, USA.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Ching-Jen Wu, Kai-Che Liu, Yen-Yu Wang, Anant S. Vemuri, Ming-Chou Ku, Chi-Hsiang Wu, Hurng-Sheng Wu.
+            <em>Robot Arm Controlled Dynamic Field View Expansion of the Endoscope Video.</em>
+            IEEE Conference on Computer Vision and Pattern Recognition, July 2013, Portland, Oregon, USA.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Tai-Sheng Tan, Wen-Chen Tsai, Li-Ting Chiu, Peichen Kung, Ming-Chou Ku.
+            <em>Temporal Trends in Total Knee and Hip Replacement in Taiwan.</em>
+            Annual Meeting of Taiwan Orthopedic Association, October 2012, Taipei, Taiwan.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Donghoon Lee, Peter R. Cavanagh.
+            <em>Measurement of MTPJ Cartilage Thickness Distribution Using 14T MRI.</em>
+            American Society of Biomechanics, August 2012, Gainesville, Florida.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Kai-Che Liu, Yen-Yu Wang, Hurng-Sheng Wu.
+            <em>Stereoscopic Visualization of Monoscopic Laparoscopy Image by Registration to the Rendered Image.</em>
+            World Congress on Medical Physics and Biomedical Engineering, May 2012, Beijing, China.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Brian Donley, and Peter R. Cavanagh.
+            <em>Design of a 1st Metatarsophalangeal Hemi-Arthroplasty Implant Based on Morphological Data.</em>
+            International Society of Foot and Ankle Biomechanics, September 2010, Seattle, WA, USA.
+        </li>
+    </ol>
+</section>
+<section class="section">
+    <h2>Patents</h2>
+    <ol>
+        <li>
+            <a href="https://patents.google.com/patent/EP3130273A1/pt">
+                <strong>Kumar Atul</strong>, Yen-Yu Wang, Kai-Che Liu, Min-Liang Wang.
+                <em>Stereoscopic visualization system and method for endoscope using shape-from-shading algorithm.</em>
+                Europe Patent Number EP3130273A1, Date: 2019/05/15.
+                <p>
+    Product Link: <a href="https://www.medicaltek.biz/" target="_blank">https://www.medicaltek.biz/</a><br>
+</p>
+            </a>
+        </li>
+        <li>
+            Yen-Yu Wang, Kai-Che Liu, <strong>Kumar Atul</strong>, I Hsun Chen.
+            <em>Image Registration and Augmented Reality System and Method Augmented Reality Thereof.</em>
+            Taiwan Patent Number I634870, Date: 2018/09/11.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Shih-Wei Huang, Kai-Che Liu, Yen-Yu Wang.
+            <em>Endoscope imaging system and method.</em>
+            Taiwan Patent Number I581750, Date: 2017/05/11.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Yen-Yu Wang, Kai-Che Liu, Min-Liang Wang, Jing-Ren Wu.
+            <em>Endoscope three-dimensional visualization system and method using Shape from Shading.</em>
+            Taiwan Patent Number I538651, Date: 2016/06/21.
+        </li>
+        <li>
+            <strong>Kumar Atul</strong>, Kai-Che Liu, Yen-Yu Wang, Jing-Ren Wu, Hong-Sheng Wu.
+            <em>Three-dimensional visualization system for single-lens endoscope and method thereof.</em>
+            Taiwan Patent Number I538651, Date: 2016/06/21.
+        </li>
+    </ol>
+</section>
+<section class="section">
+    <h2>Grants</h2>
+    <ol>
+        <li>
+            <strong>Public (PI):</strong> NT$800,000 from National Science Council, Taiwan for USG and 3D CT model fusion.
+            <span style="float: right;">2017-2018</span>
+        </li>
+        <li>
+            <strong>Public (PI):</strong> NT$800,000 from National Science Council, Taiwan for 3D reconstruction from endoscope images.
+            <span style="float: right;">2016-2017</span>
+        </li>
+        <li>
+            <strong>Private (co-PI):</strong> NT$281,000 from Show Chwan Memorial Hospital for Lymph node identification using infrared image during endoscopy.
+            <span style="float: right;">2015-2016</span>
+        </li>
+        <li>
+            <strong>Private (co-PI):</strong> NT$281,000 from Show Chwan Memorial Hospital for A Software for geometrical measurements on the 2D and 3D medical images.
+            <span style="float: right;">2015-2016</span>
+        </li>
+        <li>
+            <strong>Private (co-PI):</strong> NT$281,000 from Show Chwan Memorial Hospital for Evaluation of 3D stereo endoscope.
+            <span style="float: right;">2015-2016</span>
+        </li>
+        <li>
+            <strong>Public (PI):</strong> NT$400,000 from National Science Council, Taiwan for Augmented reality system for laparoscopy.
+            <span style="float: right;">2014-2015</span>
+        </li>
+        <li>
+            <strong>Private (PI):</strong> NT$282,000 from Show Chwan Memorial Hospital for Augmented reality during endoscopy.
+            <span style="float: right;">2013-2014</span>
+        </li>
+        <li>
+            <strong>Private (PI):</strong> NT$281,000 from Show Chwan Memorial Hospital for Texture Analysis of Chest X-ray.
+            <span style="float: right;">2012-2013</span>
+        </li>
+    </ol>
+</section>
+<section class="section">
+    <h2>Honors</h2>
+    <ul>
+        <li>
+            Member of IEEE
+            <span style="float: right;">2017-2019</span>
+        </li>
+        <li>
+            Member of IEEE Signal Processing Society
+            <span style="float: right;">2017-2019</span>
+        </li>
+        <li>
+            Taiwan National Innovation Award, Taipei, Taiwan
+            <span style="float: right;">2016</span>
+        </li>
+        <li>
+            Taiwan National Innovation Award, Taipei, Taiwan
+            <span style="float: right;">2015</span>
+        </li>
+        <li>
+            Graduate Research Assistantship, Cleveland State University, Cleveland
+            <span style="float: right;">2007-2011</span>
+        </li>
+        <li>
+            Doctoral Dissertation Fellowship Award, Cleveland State University, Cleveland
+            <span style="float: right;">2011</span>
+        </li>
+        <li>
+            Member of American Medical Association
+            <span style="float: right;">2010-2011</span>
+        </li>
+        <li>
+            Member of American Society of Biomechanics
+            <span style="float: right;">2008-2009</span>
+        </li>
+        <li>
+            Graduate Assistantship, Indian Institute of Technology-Kharagpur, India
+            <span style="float: right;">2004-2007</span>
+        </li>
+        <li>
+            Secretary of National Medicos Organization, Patna, India
+            <span style="float: right;">2000-2001</span>
+        </li>
+    </ul>
+</section>
+<section class="section">
+    <h2>Research and Teaching Experience</h2>
+
+    <h3>Senior Neuroimaging Engineer</h3>
+    <p>Washington University in Saint Louis, United States <span style="float:right;">April 2019 to Present</span></p>
+    <ul>
+        <li>Duties and responsibilities:</li>
+        <ul>
+            <li>Writing research article manuscripts. In the current position, I have co-authored seven research articles and am the first author of one.</li>
+            <li>Application of artificial intelligence, image processing, and computational geometry on CT images for:
+                <ul>
+                    <li>The brain edema quantification.</li>
+                    <li>Dividing the brain volume into symmetrical halves.</li>
+                    <li>Segmentation and quantification of ventricles and sulci regions.</li>
+                    <li>Segmentation and quantification of the atelectasis region in lung CT of patients in a persistent vegetative state.</li>
+                </ul>
+            </li>
+            <li>Computer programming to solve research problems.</li>
+            <li>Teaching colleagues and students (undergraduate and graduate) regarding the technology used in the current research at this laboratory.</li>
+        </ul>
+    </ul>
+
+    <h3>Visiting Associate Professor</h3>
+    <p><strong>IRCAD-Taiwan, Changhua, Taiwan</strong> <span style="float: right;">April 2019 to Present</span></p>
+    <ul>
+        <li>Duties and responsibilities:</li>
+        <li>Invited to deliver lectures on computer-assisted surgery and diagnosis to undergraduate and graduate students.</li>
+    </ul>
+
+    <h3>Visiting Associate Professor</h3>
+    <p><strong>Chung Hsing University, Taiwan</strong> <span style="float: right;">January 2019 to Present</span></p>
+    <ul>
+        <li>Duties and responsibilities:</li>
+        <li>Invited to deliver lectures on computer-assisted surgery and diagnosis to undergraduate and graduate students.</li>
+    </ul>
+
+
+    <h3>Research Fellow</h3>
+    <p>Asian Institute of Telesurgery, IRCAD-Taiwan <span style="float:right;">October 2011 to April 2019</span></p>
+    <ul>
+        <li>IRCAD-Taiwan is a medical research and training institute focused on minimally invasive procedures.</li>
+        <li>Duties and responsibilities:</li>
+        <ul>
+            <li>Worked as a principal investigator on research projects.</li>
+            <li>Formulated research ideas.</li>
+            <li>Drafted and submitted research proposals to public and private funding sources; received 3 public and 4 private grants.</li>
+            <li>Wrote research articles; published 8 peer-reviewed articles (6 as the first author or corresponding author) and one book chapter (as the first author).</li>
+            <li>Wrote patents: published 6 patents, one of which is implemented commercially to establish a biomedical company, and I am first on the inventor's list.</li>
+            <li>Presented research findings at international and national conferences: 9 poster presentations and 12 oral presentations.</li>
+            <li>Recruited Master's and Ph.D. graduates and guided them in working on research plans.</li>
+            <li>Guided undergraduate and graduate national and international student interns for their academic projects.</li>
+            <li>Computer programming for solving research problems.</li>
+        </ul>
+    </ul>
+
+    <h3>Visiting Scientist</h3>
+    <p>University of Washington, Seattle, WA <span style="float:right;">Nov 2008 to Sept 2011</span></p>
+    <ul>
+        <li>Duties and responsibilities:</li>
+        <ul>
+            <li>Writing Ph.D. thesis research proposal.</li>
+            <li>Writing research article manuscript: Published one article as the first author.</li>
+            <li>Presenting research findings in conferences: Presented two posters.</li>
+            <li>Application of computational geometry and image processing to find the best fitting geometrical shape for the first metatarsal head.</li>
+            <li>Measure cartilage's thickness on the first metatarsal head of cadaver bone with 14T MRI.</li>
+            <li>Reconstructing 3D virtual models of osteological specimens using a laser scanner.</li>
+            <li>Assisting undergraduate and graduate students in their projects.</li>
+            <li>Computer programming to solve research problems.</li>
+        </ul>
+    </ul>
+
+    <h3>Research Assistant</h3>
+    <p>Cleveland Clinic, Cleveland, OH <span style="float:right;">Oct 2007 to Oct 2008</span></p>
+    <ul>
+        <li>Duties and responsibilities:</li>
+        <ul>
+            <li>Reconstructed 3D virtual models of osteological specimens using a laser scanner.</li>
+            <li>Applied computational geometry to find an optimal fitting ellipsoid matching the surface of the metatarsal head.</li>
+            <li>Computer programming for data analysis.</li>
+        </ul>
+    </ul>
+
+    <h3>Junior Specialist</h3>
+    <p>University of California, San Francisco, CA <span style="float:right;">May 2006 to Oct 2006</span></p>
+    <ul>
+        <li>Duties and responsibilities:</li>
+        <ul>
+            <li>Acquisition of subjects' magnetic encephalographic (MEG) signal data as per the experiment protocol.</li>
+            <li>Acquisition of voice signals of subjects as per the experiment protocol.</li>
+            <li>Analysis of the MEG signal to understand the effect of auditory feedback.</li>
+            <li>Analysis of change in voice signal due to auditory feedback.</li>
+            <li>Computer programming for data analysis.</li>
+        </ul>
+    </ul>
+</section>
+
+<section class="section">
+    <h2>Clinical Experience</h2>
+
+    <div>
+        <h3>General Practitioner</h3>
+        <p>B.C. Roy Technology Hospital, Kharagpur, India</p>
+        <p><strong>July 2004 to May 2006</strong></p>
+        <ul>
+            <li>B.C. Roy Technology Hospital serves a population of about 20,000, including students, faculty, and staff. Facilities include clinics, inpatient wards, and an emergency department.</li>
+            <li>Obtained patient history and performed physical examinations.</li>
+            <li>Prescribed medications related to peptic ulcer, diabetes, hypertension, and pharyngitis.</li>
+            <li>Accepted emergency calls and managed cases as required.</li>
+            <li>Managed patients in the ward, monitored their progress, and ordered appropriate interventions.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Resident</h3>
+        <p>Patna Medical College, Patna, India</p>
+        <p><strong>Oct 2003 to July 2004</strong></p>
+        <ul>
+            <li>Resident in the Department of Ophthalmology, a tertiary eye care department at Patna Medical College and Hospital (PMCH).</li>
+            <li>Took history and performed physical examinations.</li>
+            <li>Presented cases to the attending eye surgeon.</li>
+            <li>Preoperative preparation of patients for eye surgery such as cataract surgery or lacrimal gland surgery.</li>
+            <li>Assisted the surgeon during the operative procedure.</li>
+            <li>Postoperative management, such as prescribing antibiotics as suggested by the senior residents.</li>
+            <li>Provided follow-up care.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>General Practitioner</h3>
+        <p>Self-employed, Patna, India</p>
+        <p><strong>April 2003 to Oct 2003</strong></p>
+        <ul>
+            <li>Obtained patient history and performed physical examinations.</li>
+            <li>Ordered diagnostic tests or provided referrals to specialist physicians as required.</li>
+            <li>Prescribed medications for conditions such as diabetes, hypertension, and asthma.</li>
+            <li>Provided immunizations per established guidelines.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Intern</h3>
+        <p>Patna Medical College, Patna, India</p>
+        <p><strong>March 2002 to March 2003</strong></p>
+        <ul>
+            <li>Internship at Patna Medical College and Hospital, a multi-specialty tertiary care 1500-bed hospital.</li>
+            <li>Rotated in several departments, including internal medicine, pediatrics, obstetrics and gynecology, social and preventive medicine, family planning, general surgery, orthopedics, casualty, ophthalmology, and ENT.</li>
+            <li>Obtained history, performed physical examinations, and presented findings to residents or attending physicians.</li>
+            <li>Ordered investigations and prescribed medications as suggested by the supervisor.</li>
+            <li>Performed procedures under supervision, such as chest tube insertion, nasogastric intubation, intravenous line placement, Foley catheterization, paracentesis, lumbar puncture, normal vaginal delivery, suturing, wound dressing, and CPR.</li>
+            <li>Assisted surgeons during operative procedures.</li>
+        </ul>
+    </div>
+</section>
+<section class="section">
+    <h2>Students Mentored</h2>
+    <ul>
+        <li>Andrea Marin from University of Strasbourg, France <span style="float:right;">2015</span></li>
+        <li>Camille Maiano and Alexandre Schilausky from University of Strasbourg, France <span style="float:right;">2016</span></li>
+        <li>Benjamin Niay and Rami Assi from University of Strasbourg, France <span style="float:right;">2017</span></li>
+        <li>Quentin Courbon, Celine Vergne, Apolline Lauriano, Emma Pierre, and Anna Shteto from University of Strasbourg, France <span style="float:right;">2018</span></li>
+        <!--<li>Jules Charrier, Alix de Villers, Juliette Haouy, Laure Vanbrussel, Raphael Roger, Bounoua Rayan, Alexis Brullé, and Moran Le Gleau from University of Strasbourg, France <span style="float:right;">2019</span></li>-->
+    </ul>
+</section>
+<section class="section">
+    <h2>Computer Skills</h2>
+    <ul>
+        <li><strong>Programming languages and tools:</strong> Python, C/C++, MATLAB, JavaScript, HTML, C#, Java</li>
+        <li><strong>Toolbox and libraries:</strong> MATLAB (Image Processing, Optimization, Machine Learning, Computer Vision, Computational Geometry, Compiler), C/C++ (Qt, VTK, OpenCV, ITK, PCL), Python (TensorFlow, Flask, Panda)</li>
+        <li><strong>Statistics tools:</strong> R, Excel</li>
+        <li><strong>Shell scripting:</strong> Bash</li>
+        <li><strong>Document writing:</strong> LaTeX</li>
+        <li><strong>Operating Systems:</strong> Linux, Windows, Macintosh</li>
+    </ul>
+</section>
+<section class="section">
+    <h2>Languages</h2>
+    <ul>
+        <li><strong>English:</strong> Fluent</li>
+        <li><strong>Hindi:</strong> Native language</li>
+        <li><strong>Mandarin:</strong> Basic</li>
+    </ul>
+</section>
+<section class="section">
+    <h2>Citizenship / Visas</h2>
+    <ul>
+        <li><strong>Citizenship:</strong> India</li>
+        <li><strong>Permanent Residency:</strong> United States, Taiwan</li>
+    </ul>
+</section>
+<h2>Hobbies and Interests</h3>
+<ul>
+    <li><strong>Programming:</strong> Passionate about creating fun and innovative projects during free time, such as developing personal tools and apps. For example, <a href="https://www.letstdy.com" target="_blank">https://www.letstdy.com</a>, a flashcard application designed to enhance learning efficiency.</li>
+    <li><strong>Yoga and Meditation:</strong> Practicing mindfulness and maintaining physical and mental well-being through regular sessions.</li>
+    <li><strong>Fusion-Style Cooking:</strong> Enjoy experimenting with diverse cuisines to create unique and flavorful dishes.</li>
+    <li><strong>Hiking:</strong> Exploring nature trails and challenging terrains to rejuvenate and stay active.</li>
+</ul>
+
+
+    <!--<section class="section">-->
+    <!--    <h2>Skills</h2>-->
+    <!--    <ul>-->
+    <!--        <li><strong>Programming Languages:</strong> Python, C/C++, MATLAB, Java, JavaScript, HTML</li>-->
+    <!--        <li><strong>Libraries:</strong> TensorFlow, OpenCV, ITK, VTK</li>-->
+    <!--        <li><strong>Operating Systems:</strong> Linux, Windows, Macintosh</li>-->
+    <!--        <li><strong>Documentation:</strong> LaTeX</li>-->
+    <!--    </ul>-->
+    <!--</section>-->
+</body>
+</html>
